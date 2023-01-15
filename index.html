@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <title>Encriptador de texto</title>
-    <link rel="icon" href="/images/ico.png" type="image/x-icon" />
-    <link rel="stylesheet" href="reset.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="./images/ico.png" type="image/x-icon" />
+    <link rel="stylesheet" href="./reset.css" />
+    <link rel="stylesheet" href="./style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -13,4 +13,33 @@
       rel="stylesheet"
     />
   </head>
+  <body>
+    <header>
+      <img src="./images/logo_alura.png" alt="Alura logo" id="logo-alura" />
+    </header>
+    <main>
+      <section>
+        <textarea
+          type="text"
+          class="input-text1"
+          placeholder="Ingrese el texto aquí"
+        ></textarea>
+        <h6>
+          <img src="./images/icon.png" class="icon" />Letras minúsculas y sin
+          acentos
+        </h6>
+        <div>
+          <button type="button" onclick="button_encrip()" class="button-1">
+            Encriptar
+          </button>
+          <button type="button" onclick="button_desencrip()" class="button-2">
+            Desencriptar
+          </button>
+        </div>
+      </section>
+      <section>
+        <textarea type="text" class="input-text2"></textarea>
+      </section>
+    </main>
+  </body>
 </html>
