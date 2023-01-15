@@ -1,0 +1,24 @@
+{
+  "name": "text-encryptor",
+  "version": "1.0.0",
+  "description": "alura latam text encryption challenge repository",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andresardila33/text-encryptor.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Andres Ardila <andresardila33@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andresardila33/text-encryptor/issues"
+  },
+  "homepage": "https://github.com/andresardila33/text-encryptor#readme"
+}
