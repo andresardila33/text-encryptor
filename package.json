@@ -2,7 +2,7 @@
   "name": "text-encryptor",
   "version": "1.0.0",
   "description": "alura latam text encryption challenge repository",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

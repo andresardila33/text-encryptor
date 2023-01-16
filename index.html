@@ -18,10 +18,10 @@
       <img src="./images/logo_alura.png" alt="Alura logo" id="logo-alura" />
     </header>
     <main>
-      <section class="main-input">
+      <section>
         <textarea
           type="text"
-          class="input-text1"
+          id="input-text1"
           placeholder="Ingrese el texto aquí"
         ></textarea>
         <div class="box">
@@ -29,30 +29,31 @@
             <img src="./images/icon.png" class="icon" />Letras minúsculas y sin
             acentos
           </h6>
-          <button type="button" onclick="button_encrip()" class="button-1">
+          <button type="button" onclick="encryptButton()" class="button-1">
             Encriptar
           </button>
-          <button type="button" onclick="button_desencrip()" class="button-2">
+          <button type="button" onclick="decryptButton()" class="button-2">
             Desencriptar
           </button>
         </div>
       </section>
 
-      <aside class="main-ouput">
-        <div class="box-2">
-          <img src="/images/detective_2.png" class="imagen-1" />
+      <aside>
+        <div id="box-2">
+          <img src="/images/detective_2.png" id="imagen-1" />
           <h6 class="mensaje-2">Ningún mensaje fue encontrado</h6>
           <h6 class="mensaje-3">
             Ingresa el texto que deseas encriptar o desencriptar.
           </h6>
         </div>
-        <div class="box-3">
-          <textarea type="text" class="input-text2"></textarea>
-          <button type="button" onclick="button_copy()" class="button-3">
+        <div id="box-3">
+          <textarea type="text" id="input-text2"></textarea>
+          <button type="button" onclick="copyButton()" class="button-3">
             Copiar
           </button>
         </div>
       </aside>
     </main>
   </body>
+  <script src="./main.js"></script>
 </html>
