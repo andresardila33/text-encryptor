@@ -6,34 +6,193 @@
     line-height: 150%;
 }
 
-main {
+header {
     display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    height: 60px;
 }
 
-#logo-alura{
-    position: absolute;
-    top: 27.5px;
-    left: 54.8px;
+header #logo-alura {
+    margin-left: 50px;
 }
 
-.input-text1 {
-    position: absolute;
-    width: 376.6px;
+main {
+    width: 100%;
+    height: calc(100vh - 60px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section {
+    background: yellow;
+    width: 60%;
+    height: 100%;
+}
+
+section .input-text1 {
+    position: relative;
+    width: 676.6px;
     height: 300px;
     left: 156.7px;
-    top: 115.6px;
+    top: 50px;
     color: #0A3871;
 }
 
-.input-text2 {
+section .box {
+    align-items: flex-start;
+    padding: 0px;
+    position: relative;
+    top: 100px;
+    left: 156.7px;
+    width: 443.9px;
+    height: 120px;
+}
+
+section .icon {
+    padding-top: 3px;
+    padding-right: 3px;
+    width: 10px;
+    height: 10px;
+}
+
+section .button-1 {
+    position: relative;
+    cursor: pointer;
+    background: #0A3871;
+    border: 1px;
+    border-radius: 20px;
+    left: 0px;
+    width: 214px;
+    height: 46.1px;
+    font-size: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+section .button-1:hover {
+    padding-right: 25px;
+    border-color: aqua;
+    transition: 0.3s;
+}
+
+section .button-2 {
+    position: relative;
+    cursor: pointer;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    right: 0px;
+    width: 214px;
+    height: 46.1px;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+    transition: 0.3s;
+}
+
+section .button-2:hover {
+    padding-right: 25px;
+    border-color: aqua;
+    transition: 0.3s;
+}
+
+section .mensaje-1 {
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+
+aside {
+    width: 40%;
+    height: 100%;
+}
+
+aside .box-3 {
+    display: none;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    width: 340px;
+    height: 640px;
+}
+
+aside .input-text2 {
     display: none;
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
-    position: absolute;
-    left: 652.7px;
-    top: 27.5px;
-    width: 261.1px;
-    height: 650px;
+    position: relative;
+    left: 10px;
+    top: 0px;
+    width: 340px;
+    height: 640px;
     color: #0A3871;
+}
+
+aside .box-2 {
+    background: #FFFFFF;
+    position: relative;
+    border: solid 1px;
+    border-color: black;
+    border-radius: 12px;
+    left: 10px;
+    top: 20px;
+    width: 340px;
+    height: 640px;
+}
+
+aside .imagen-1 {
+    background: #FFFFFF;
+    position: relative;
+    left: 65px;
+    top: 160px;
+    max-width: 236px;
+    max-height: 204px;
+}
+
+aside .mensaje-2 {
+    background: #FFFFFF;
+    position: relative;
+    font-family: "Inter";
+    font-weight: 700;
+    text-align: center;
+    font-size: 18px;
+    line-height: 120%;    
+    top: 160px;
+}
+
+aside .mensaje-3 {
+    background: #FFFFFF;
+    position: relative;
+    top: 200px;
+    font-family: "Inter";
+    font-weight: 400;
+    text-align: center;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+aside .button-3 {
+    cursor:pointer;
+    display: none;
+    position: relative;
+    left: 80px;
+    bottom: 200px;
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 20px;
+    width: 214px;
+    height: 46.1px;
+    font-size: 16px;
+    text-align: center;
+    color: #0A3871;
+    transition: 0.3s;
+}
+
+aside .button-3:hover {
+    padding-right: 25px;
+    border-color: aqua;
+    transition: 0.3s;
 }
