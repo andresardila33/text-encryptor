@@ -2,10 +2,10 @@
 <html lang="es">
   <head>
     <meta charset="UTF-8" />
-    <title>Encriptador de texto</title>
+    <title>Text encryptor</title>
     <link rel="icon" href="./images/ico.png" type="image/x-icon" />
-    <link rel="stylesheet" href="./reset.css" />
-    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./css/reset.css" />
+    <link rel="stylesheet" href="./css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,25 +15,25 @@
   </head>
   <body>
     <header>
-      <img src="./images/logo_alura.png" alt="Alura logo" id="logo-alura" />
+      <img src="./images/logo_alura.png" alt="Alura logo" id="alura-logo" />
     </header>
     <main>
       <section>
         <textarea
           type="text"
           id="input-text1"
-          placeholder="Ingrese el texto aquí"
+          placeholder="Enter text here"
         ></textarea>
         <div class="box">
           <h6 class="mensaje-1">
-            <img src="./images/icon.png" class="icon" />Letras minúsculas y sin
-            acentos
+            <img src="./images/icon.png" class="icon" />Lowercase letters
+            without accents
           </h6>
           <button type="button" onclick="encryptButton()" class="button-1">
-            Encriptar
+            Encrypt
           </button>
           <button type="button" onclick="decryptButton()" class="button-2">
-            Desencriptar
+            Decrypt
           </button>
         </div>
       </section>
@@ -41,15 +41,15 @@
       <aside>
         <div id="box-2">
           <img src="/images/detective_2.png" id="imagen-1" />
-          <h6 class="mensaje-2">Ningún mensaje fue encontrado</h6>
+          <h6 class="mensaje-2">No message was found</h6>
           <h6 class="mensaje-3">
-            Ingresa el texto que deseas encriptar o desencriptar.
+            Enter the text you want to encrypt or decrypt
           </h6>
         </div>
         <div id="box-3">
           <textarea type="text" id="input-text2"></textarea>
           <button type="button" onclick="copyButton()" class="button-3">
-            Copiar
+            Copy
           </button>
         </div>
       </aside>

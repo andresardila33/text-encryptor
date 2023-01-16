@@ -13,7 +13,7 @@ header {
     height: 60px;
 }
 
-header #logo-alura {
+header #alura-logo {
     display: block;
     margin-left: 50px;
 }
@@ -118,7 +118,7 @@ aside #box-3 {
     height: 640px;
 }
 
-#input-text2 {
+aside #input-text2 {
     background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
     border-radius: 12px;
